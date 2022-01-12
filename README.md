@@ -2,4 +2,4 @@
 Simple link website leading to my socials
 
 
-![](images/linktree.png
+![](images/linktree.png)
