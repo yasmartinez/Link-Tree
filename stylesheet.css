@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    margin-top: 45px;
+    font-family: 'Barlow', sans-serif;
+    background: #FFF3F0;
+}
+
+#bio {
+    font-size: 22px;
+}
+
+.profile-picture {
+    width: 140px;
+}
+
+.link-list{
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.link-list > li {
+    margin: 12px;
+}
+
+.link-list> li a {
+    color: black;
+    background-color: #D7BEA8;
+    border-radius: 6px;
+    padding: 12px; 
+    text-decoration: none;
+    max-width: 360px; 
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.link-list > li:nth-child(1) a {
+background: #F8B4D2;
+}
+
+.link-list > li:nth-child(2) a {
+background: #F58FBB;
+}
+
+.link-list > li:nth-child(3) a {
+background: #F05699;
+}
+
+.link-list > li:nth-child(4) a {
+background: #EB1E77;
+}
+
+.link-list > li a:hover,  
+.link-list > li a:focus {
+    background: #FF0A85;
+}
